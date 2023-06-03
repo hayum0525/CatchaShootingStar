@@ -1,0 +1,1502 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16100 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Owner/Catch a Shooting star
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+13930
+Successfully changed project path to: C:/Users/Owner/Catch a Shooting star
+C:/Users/Owner/Catch a Shooting star
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32892] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 908092711 [EditorId] 908092711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4M01SCA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32892] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 908092711 [EditorId] 908092711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4M01SCA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 101.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Owner/Catch a Shooting star/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8050 MB
+    Driver:   31.0.101.4032
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004340 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (350ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Catch a Shooting star\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Catch a Shooting star\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 182.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1380ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.4 KB). Loaded Objects now: 4208.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 3.137200 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.698500 ms  DeleteObjects: 0.146800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63663.477045 seconds.
+  path: Assets/Art By Kandles/Basic Icons/PSDs/Icons.psd
+  artifactKey: Guid(f42e478e01adef345a803ced069133be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art By Kandles/Basic Icons/PSDs/Icons.psd using Guid(f42e478e01adef345a803ced069133be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c8b6ee8c436957252928acd01eb13') in 0.191743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613204 seconds.
+  path: Assets/Art By Kandles/Basic Icons/Prefabs/Checkmark.prefab
+  artifactKey: Guid(f5ec2c1b3ff4abb4dbe867f5c4665aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art By Kandles/Basic Icons/Prefabs/Checkmark.prefab using Guid(f5ec2c1b3ff4abb4dbe867f5c4665aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044187c250601326e85e9b41d5484aa5') in 0.030696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art By Kandles/Basic Icons/Prefabs/Reload.prefab
+  artifactKey: Guid(021b301d1ce7883438672023a3bcf965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art By Kandles/Basic Icons/Prefabs/Reload.prefab using Guid(021b301d1ce7883438672023a3bcf965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d76ea2c7012b9f7ab16f11a56eb6a2') in 0.007579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.851277 seconds.
+  path: Assets/FreeButtonSet/background.png
+  artifactKey: Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeButtonSet/background.png using Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6fabc1e75f310956aaa6b119c10d50') in 0.194674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.486054 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Banner01@0.25x.png
+  artifactKey: Guid(a3ddac3aa90855442ba28942028568bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Banner01@0.25x.png using Guid(a3ddac3aa90855442ba28942028568bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cda1f8da0a83e265191fade18d05a9e') in 0.081001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Elements03@0.25x.png
+  artifactKey: Guid(04b2f2d5a464ceb43949247d86c2d799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Elements03@0.25x.png using Guid(04b2f2d5a464ceb43949247d86c2d799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6556f84d91753e98452be17543fd36') in 0.047732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_02_g@0.25x.png
+  artifactKey: Guid(0f0e4284d6460ee49b7510aac495d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_02_g@0.25x.png using Guid(0f0e4284d6460ee49b7510aac495d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e723677063b0d1b54546e479c2bd5018') in 0.060640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_03_b@0.25x.png
+  artifactKey: Guid(ff0e2ae60e4bfb84b87a0ac0133fe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_03_b@0.25x.png using Guid(ff0e2ae60e4bfb84b87a0ac0133fe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86a719584e255d22c6cfce535263cd7') in 0.064991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Promo.png
+  artifactKey: Guid(19b5f8ff33366614a98287fa6814f3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Promo.png using Guid(19b5f8ff33366614a98287fa6814f3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef67a0625c76cb6f0b5be12cfb3a55d') in 0.295169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_01_b@0.25x.png
+  artifactKey: Guid(f89eeb8f0d08ee74c8f8c53401ac714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Demo/Frames_Menu_01_b@0.25x.png using Guid(f89eeb8f0d08ee74c8f8c53401ac714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fef5607baec0b7170889f02bb3a9c9') in 0.080567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.940891 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner01@0.5x.png
+  artifactKey: Guid(fd69956c61aa8fe4fab0cca411c5600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner01@0.5x.png using Guid(fd69956c61aa8fe4fab0cca411c5600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa93fed6077d2008680b51e242f38cf6') in 0.048173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner10@0.5x.png
+  artifactKey: Guid(a5f54fdb9c19f2446aaf685f213828f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner10@0.5x.png using Guid(a5f54fdb9c19f2446aaf685f213828f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8f4aada3d3cdca70eedffcff2d4205') in 0.048289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner07@0.5x.png
+  artifactKey: Guid(9dfa763f93a95824dbce5bd1479cbdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,50x size/Banner07@0.5x.png using Guid(9dfa763f93a95824dbce5bd1479cbdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd658b4b826c32362bbb462aece095bfd') in 0.034709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.126359 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner01@0.75x.png
+  artifactKey: Guid(c328cbbb284c4954386268416cf628d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner01@0.75x.png using Guid(c328cbbb284c4954386268416cf628d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65457a36c8c0eeba7d8e0aa74dd09888') in 0.045372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner08@0.75x.png
+  artifactKey: Guid(c13f01f4a9e5a0e4a8339ec89cd4c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner08@0.75x.png using Guid(c13f01f4a9e5a0e4a8339ec89cd4c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eab95a8ceb281a57f17eec66e2f6396') in 0.023232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner07@0.75x.png
+  artifactKey: Guid(5dfad0b47365cd748a3cde6cf88ccc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Banner/0,75x size/Banner07@0.75x.png using Guid(5dfad0b47365cd748a3cde6cf88ccc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0631815792aed16d3319d106f7eb37dd') in 0.038545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.307889 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Background01@0.5x.png
+  artifactKey: Guid(c30ee76386dbd8c45b3d0ae489331842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Background01@0.5x.png using Guid(c30ee76386dbd8c45b3d0ae489331842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cce5493db37a1c1a7541238162c8d00') in 0.028080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment04@0.5x.png
+  artifactKey: Guid(deb12c8dee2e57943b2647db9b89452e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment04@0.5x.png using Guid(deb12c8dee2e57943b2647db9b89452e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1205a3291feb7bed492193dd8631e66') in 0.034306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment09@0.5x.png
+  artifactKey: Guid(53fec9b5b0a66514492dabdb83845bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment09@0.5x.png using Guid(53fec9b5b0a66514492dabdb83845bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e56fdf8989546f1be56bfcee711d2a0') in 0.032509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment06@0.5x.png
+  artifactKey: Guid(50e193977712e7342b464b4cb0fa8225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,50x size/Bar_Segment06@0.5x.png using Guid(50e193977712e7342b464b4cb0fa8225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd29a601784305e0eb69e4dfe019a4db') in 0.028856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.497785 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Background01@0.75x.png
+  artifactKey: Guid(63b2dd4b22fef1647ad4f8bb3866ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Background01@0.75x.png using Guid(63b2dd4b22fef1647ad4f8bb3866ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb4bd127eb5fdeaa8adc8c6513a0a53') in 0.055273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment05@0.75x.png
+  artifactKey: Guid(8c5a55e2d228fbc4cb61f7a94ce02c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment05@0.75x.png using Guid(8c5a55e2d228fbc4cb61f7a94ce02c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb27c5ada0692e28c9b8cc7b34dbf32') in 0.037417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment07@0.75x.png
+  artifactKey: Guid(9e869f0dd7eebd5428a4d63ff411d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment07@0.75x.png using Guid(9e869f0dd7eebd5428a4d63ff411d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017ee7dbd61ae81193d436c45ab61a2b') in 0.035558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment06@0.75x.png
+  artifactKey: Guid(0eec9aba8cbddc34f8dced09d49b3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/0,75x size/Bar_Segment06@0.75x.png using Guid(0eec9aba8cbddc34f8dced09d49b3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b994f0f089101639370649d0d7f2089') in 0.044926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.929091 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Background01.png
+  artifactKey: Guid(f65327b62bf579041a9a0723776cc5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Background01.png using Guid(f65327b62bf579041a9a0723776cc5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d11cbb43654d0d9fe348a2480c8a12') in 0.043161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Segment06.png
+  artifactKey: Guid(cc4d27b24f3d6de4a8b3074cd6695742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Segment06.png using Guid(cc4d27b24f3d6de4a8b3074cd6695742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427726b52639dfaa545f022fe476e5c1') in 0.039378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Segment09.png
+  artifactKey: Guid(181df36ea024a154baa15c5d40be79ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Bars/1x size/Bar_Segment09.png using Guid(181df36ea024a154baa15c5d40be79ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9994de1d8d92052f830ea9acc071b82d') in 0.042502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.716193 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/0@0.5x.png
+  artifactKey: Guid(2022afcf52a249449ad750e7ad8f22fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/0@0.5x.png using Guid(2022afcf52a249449ad750e7ad8f22fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367a379d51ced42b870e5d264167ed5a') in 0.035522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_01@0.5x.png
+  artifactKey: Guid(fb884b6ad49b6574dbf6df32b9b422dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_01@0.5x.png using Guid(fb884b6ad49b6574dbf6df32b9b422dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edc762a3dc4af736aa49f613b43e06e') in 0.037833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_09@0.5x.png
+  artifactKey: Guid(e7fa77de136da9249a39adc3edbfaca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_09@0.5x.png using Guid(e7fa77de136da9249a39adc3edbfaca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddf50bb0abb70d0f8abcb18eb78c733') in 0.033787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/arrowDown@0.5x.png
+  artifactKey: Guid(bac1a4ea2b519fa4e9baa0006d485ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/arrowDown@0.5x.png using Guid(bac1a4ea2b519fa4e9baa0006d485ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26c015041e9147b151f3ba36a3794b') in 0.035831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_06@0.5x.png
+  artifactKey: Guid(46e43c0e07c639b45ae9bbe846699774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_06@0.5x.png using Guid(46e43c0e07c639b45ae9bbe846699774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd49c3089396616551bdb8f16b389cf') in 0.056912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_05@0.5x.png
+  artifactKey: Guid(7ab8994c736b87c4eb4f06bf12eac6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_05@0.5x.png using Guid(7ab8994c736b87c4eb4f06bf12eac6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a9237ac7a348963f0c2a2eb41808f0') in 0.040638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_04@0.5x.png
+  artifactKey: Guid(3ba6e78aa66765843962ade5c1c5bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_M_04@0.5x.png using Guid(3ba6e78aa66765843962ade5c1c5bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b022724a3cbae42bf4fcad51ee81b695') in 0.040854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_L_02@0.5x.png
+  artifactKey: Guid(0be0dfb4c81d7da42853b50554f61819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_L_02@0.5x.png using Guid(0be0dfb4c81d7da42853b50554f61819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a04801c3bbf152963e8390e1076c9c') in 0.036670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/audioMute@0.5x.png
+  artifactKey: Guid(d796dce2a1e4ea744ae99785fb88ed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/audioMute@0.5x.png using Guid(d796dce2a1e4ea744ae99785fb88ed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab94a8073f5a0f56e94b898a052f71bb') in 0.032200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_02@0.5x.png
+  artifactKey: Guid(eb48172fb6f7bfd41b20336f6ba7ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_02@0.5x.png using Guid(eb48172fb6f7bfd41b20336f6ba7ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a56d44736d07bbb2dd131a907120516') in 0.024779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.969427 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_04@0.5x.png
+  artifactKey: Guid(9ea5dbe0e96940f489b883e8e0d15807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_04@0.5x.png using Guid(9ea5dbe0e96940f489b883e8e0d15807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53790ef33d9995a2069ccf4c4672d10') in 0.074269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_08@0.5x.png
+  artifactKey: Guid(be3c054de81a3564d82b770c240233eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_S_08@0.5x.png using Guid(be3c054de81a3564d82b770c240233eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c06527ce80902c1e69dd85d5c6f7b41') in 0.089785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_XL_05@0.5x.png
+  artifactKey: Guid(ed9abb994c3ddec4bb1a1420215d9bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_XL_05@0.5x.png using Guid(ed9abb994c3ddec4bb1a1420215d9bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e70e3b66f8a9537a9e0e43b91b553c') in 0.048354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_XL_07@0.5x.png
+  artifactKey: Guid(e8d4b2a762a1976419c949038f47fd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,50x size/Button_XL_07@0.5x.png using Guid(e8d4b2a762a1976419c949038f47fd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1537d7e28a5d449c129a1fd066acdfdd') in 0.047738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.443805 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/9@0.75x.png
+  artifactKey: Guid(3daa9d0a0e064a8499271ddc5d76c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/9@0.75x.png using Guid(3daa9d0a0e064a8499271ddc5d76c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5b5a3aba0847ac75c7af7db15f28fe') in 0.064659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_S_01@0.75x.png
+  artifactKey: Guid(681306074a7559c418ca854031cb611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_S_01@0.75x.png using Guid(681306074a7559c418ca854031cb611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5404ff5881960b3e1edd92f8b4678a') in 0.053597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_S_08@0.75x.png
+  artifactKey: Guid(255c1919b8fb9fe4e96ed208919f0c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_S_08@0.75x.png using Guid(255c1919b8fb9fe4e96ed208919f0c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be2a545b188b8fe05718b91e8d76339') in 0.042041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_L_06@0.75x.png
+  artifactKey: Guid(16e64cc9a5cf45c4a9c47b227cc0b4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_L_06@0.75x.png using Guid(16e64cc9a5cf45c4a9c47b227cc0b4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb81f78a5d9588da9f572812fac991f') in 0.033731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_M_04@0.75x.png
+  artifactKey: Guid(8ede3c09f30b3c24b8b2a13705bb1989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_M_04@0.75x.png using Guid(8ede3c09f30b3c24b8b2a13705bb1989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca96ca3fe6fac5829576b573cdb95bc7') in 0.036764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/arrowUp@0.75x.png
+  artifactKey: Guid(f9ffd75bee4eb37479ac7b46db641a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/arrowUp@0.75x.png using Guid(f9ffd75bee4eb37479ac7b46db641a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a5a7869e9fe711f5bb7e97e89ea982') in 0.031642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/audioMute@0.75x.png
+  artifactKey: Guid(a50fcb9d9c1870b47a475575f50bc3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/audioMute@0.75x.png using Guid(a50fcb9d9c1870b47a475575f50bc3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e205e627d0e0ba39c5a2ebaa41863408') in 0.032674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_M_03@0.75x.png
+  artifactKey: Guid(8e87b37b1b1bb824592f41c7a85d8ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_M_03@0.75x.png using Guid(8e87b37b1b1bb824592f41c7a85d8ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86c2a2f9e1f28970e0665126bd7e017') in 0.027815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_L_01@0.75x.png
+  artifactKey: Guid(1ae40ef4f2e11c345bdc05b96e6f79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_L_01@0.75x.png using Guid(1ae40ef4f2e11c345bdc05b96e6f79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30608da3ac9cc4461aa1c6c4d36ef0c2') in 0.040518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.508841 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_XL_04@0.75x.png
+  artifactKey: Guid(bfdc2a9fcfb61c24484c35baf8b118ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_XL_04@0.75x.png using Guid(bfdc2a9fcfb61c24484c35baf8b118ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565cc56b63ad65f8fe29f925893a7025') in 0.047487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_XL_09@0.75x.png
+  artifactKey: Guid(6767ec2573dc7d74ba08c8a4ff089946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/Button_XL_09@0.75x.png using Guid(6767ec2573dc7d74ba08c8a4ff089946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5fd0755a845c5f05a1164bc6a5e4d7') in 0.076412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.849646 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/locked@0.75x.png
+  artifactKey: Guid(70d92a96c3e7bf94490bfc25473df896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/locked@0.75x.png using Guid(70d92a96c3e7bf94490bfc25473df896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937777d50b9c020785be5618f7c6e811') in 0.049813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/star_empty@0.75x.png
+  artifactKey: Guid(1a35400f8b4a9fa4c9c7e075c31101c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/star_empty@0.75x.png using Guid(1a35400f8b4a9fa4c9c7e075c31101c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cef3d593fbcd19ab0835cb6b464ed49') in 0.079814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/settings@0.75x.png
+  artifactKey: Guid(0534a085889d0cf4687882d9fad0505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Buttons/0,75x size/settings@0.75x.png using Guid(0534a085889d0cf4687882d9fad0505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29120b5b8f9eb742387884a5206a44f') in 0.066213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.140087 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element23s@0.5x.png
+  artifactKey: Guid(04f95ad55ea4b39418fd717ae35a47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element23s@0.5x.png using Guid(04f95ad55ea4b39418fd717ae35a47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664a2d8ce034a10219b93e2539c5a262') in 0.021666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element38s@0.5x.png
+  artifactKey: Guid(2476a5f7d5603614f89484e3b7bb07ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element38s@0.5x.png using Guid(2476a5f7d5603614f89484e3b7bb07ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587019eed194d75df14ed6f332a8af1d') in 0.023578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element31s@0.5x.png
+  artifactKey: Guid(7e0eb0152b41d9040921aae56c0a143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element31s@0.5x.png using Guid(7e0eb0152b41d9040921aae56c0a143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5343528eee9e2ec4dbe7b8395d6b6361') in 0.020915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element25s@0.5x.png
+  artifactKey: Guid(3fe6097939fae2447b02b3fc75ffccfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element25s@0.5x.png using Guid(3fe6097939fae2447b02b3fc75ffccfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077bd66f98380baaddfc5d194515778d') in 0.028833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element26@0.5x.png
+  artifactKey: Guid(dfe00a90a380b8c4cabe7bf7a4b4f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element26@0.5x.png using Guid(dfe00a90a380b8c4cabe7bf7a4b4f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00785fde1a8ec08f2853f7e89bf5cb86') in 0.022957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element28s@0.5x.png
+  artifactKey: Guid(68a438d34a6b5354dbf6caf3343a7856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element28s@0.5x.png using Guid(68a438d34a6b5354dbf6caf3343a7856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8725d8a4c375d7e94a22e2656a9b06ca') in 0.023823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element35@0.5x.png
+  artifactKey: Guid(f6a27efe4706d0b4b907a15e5beecb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element35@0.5x.png using Guid(f6a27efe4706d0b4b907a15e5beecb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cde499e9759044638ea462db034fd31') in 0.021188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element36s@0.5x.png
+  artifactKey: Guid(a692d22fecb99054ba592146f2d55dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element36s@0.5x.png using Guid(a692d22fecb99054ba592146f2d55dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbf7d0ca5eac3e4ec8764eb0fc106fb') in 0.019437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element32@0.5x.png
+  artifactKey: Guid(0d3c9ffc35f5b0c45ab4e4f7072b9867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element32@0.5x.png using Guid(0d3c9ffc35f5b0c45ab4e4f7072b9867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f27095355046e1a74c0b40e501bea8a') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element38@0.5x.png
+  artifactKey: Guid(ea6af9f278b5be240ac2e4be94088b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element38@0.5x.png using Guid(ea6af9f278b5be240ac2e4be94088b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f9092e54a7cbd2448dcc88cd1e5c58') in 0.015786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398285 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element19@0.5x.png
+  artifactKey: Guid(ee3c9b87fd38c1247842eb708e854fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element19@0.5x.png using Guid(ee3c9b87fd38c1247842eb708e854fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6fbd085bac3be3162d0ffa9052b8e9') in 0.058668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011366 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element22@0.5x.png
+  artifactKey: Guid(783b2ea68733bc34da3c0e7b02e97916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Element22@0.5x.png using Guid(783b2ea68733bc34da3c0e7b02e97916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f47ae7b834b4776b719c4f78379b99c') in 0.042387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.132998 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Photo02@0.5x.png
+  artifactKey: Guid(9e1b57d12c113e540afb1cc59d91aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Photo02@0.5x.png using Guid(9e1b57d12c113e540afb1cc59d91aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298c51313b83f2c32d0fa13704ce62f4') in 0.024071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Promo04@0.5x.png
+  artifactKey: Guid(d8cb96f3c4ee87e4c88410406f7d8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Promo04@0.5x.png using Guid(d8cb96f3c4ee87e4c88410406f7d8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33870d6a2c37c46054f0ee13693f514c') in 0.031850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.567063 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/shield@0.5x.png
+  artifactKey: Guid(90bd7c4ade5964d4e86d6e24e813014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/shield@0.5x.png using Guid(90bd7c4ade5964d4e86d6e24e813014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d8fb0b474616478a2d979b59adf251') in 0.050320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab04@0.5x.png
+  artifactKey: Guid(55dfa4ed5d862dd44bef2378cb1db4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab04@0.5x.png using Guid(55dfa4ed5d862dd44bef2378cb1db4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ee2b1e05384b9bb78e155843b97745') in 0.043971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab03_open@0.5x.png
+  artifactKey: Guid(bde1b55ee7c59394cabc8e22864052f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab03_open@0.5x.png using Guid(bde1b55ee7c59394cabc8e22864052f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead30a818ff76fabca469a97279cdbae') in 0.037761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab05_open@0.5x.png
+  artifactKey: Guid(b77b7a49b52148443828bcb21f2138c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Elements/0,50x size/Tab05_open@0.5x.png using Guid(b77b7a49b52148443828bcb21f2138c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99edbb39e0b55b2def6db231c0b69c57') in 0.052573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.784516 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu01_b@0.5x.png
+  artifactKey: Guid(e7a28388f60a6b64dbb12e37203e0fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu01_b@0.5x.png using Guid(e7a28388f60a6b64dbb12e37203e0fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d28cd411183be6e529c9b180aa35d8') in 0.088871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu03_g@0.5x.png
+  artifactKey: Guid(18211753bf839b14dbd2f91251bcf49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu03_g@0.5x.png using Guid(18211753bf839b14dbd2f91251bcf49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9524da939130c91c1ed2e89ac7575ff5') in 0.044823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu03_b@0.5x.png
+  artifactKey: Guid(b41c595182b1a824486a5296e26fe0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Menu03_b@0.5x.png using Guid(b41c595182b1a824486a5296e26fe0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fca1f28c3d8934fbc0e80ad44d1e7bb') in 0.045672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Overlay04_g@0.5x.png
+  artifactKey: Guid(c06b1ba1693ffc14a8bbe18845be0598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Overlay04_g@0.5x.png using Guid(c06b1ba1693ffc14a8bbe18845be0598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ab9418b6095ae9349041480952efe3') in 0.035247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Overlay01_b@0.5x.png
+  artifactKey: Guid(197056c330f616f4eb226dbd6d4b9d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,50x size/Frames_Overlay01_b@0.5x.png using Guid(197056c330f616f4eb226dbd6d4b9d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6aad873c23cd462ebbbf705a55690') in 0.036803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.140337 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu01_b@0.75x.png
+  artifactKey: Guid(2e8b7d0f937538e4099931dd3ad7b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu01_b@0.75x.png using Guid(2e8b7d0f937538e4099931dd3ad7b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e03641545d7e7283c7187b8ff97490e') in 0.152581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu03_b@0.75x.png
+  artifactKey: Guid(fd9f00743b7076e4b936f9813a23506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu03_b@0.75x.png using Guid(fd9f00743b7076e4b936f9813a23506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93477a4daf63d3133bf4b448fc11301') in 0.088304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Overlay02_b@0.75x.png
+  artifactKey: Guid(1100508e1535bf244b2dda612b2abe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Overlay02_b@0.75x.png using Guid(1100508e1535bf244b2dda612b2abe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefa9f80d305c22ee0bc9c5c4e5663d6') in 0.053672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu03_g@0.75x.png
+  artifactKey: Guid(28e922e401fd64244ae98432188020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/0,75x size/Frames_Menu03_g@0.75x.png using Guid(28e922e401fd64244ae98432188020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a4855b116768ff7a37458421617cf5') in 0.081413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Overlay02_b@1.5x.png
+  artifactKey: Guid(4934688d1aa087e438365de003ade2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Overlay02_b@1.5x.png using Guid(4934688d1aa087e438365de003ade2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee512561e886ca7089921feea1fd6936') in 0.077273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Overlay04_b@1.5x.png
+  artifactKey: Guid(b69472ef22de6d64a89b56a6c4379d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Overlay04_b@1.5x.png using Guid(b69472ef22de6d64a89b56a6c4379d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5824cc5de014c7112d24427fef283c4c') in 0.069452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Menu04_b@1.5x.png
+  artifactKey: Guid(eb2e773b25823da4bbb75ae23ab48fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Menu04_b@1.5x.png using Guid(eb2e773b25823da4bbb75ae23ab48fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a9223397277acaffaca76f751e052f') in 0.148551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay03_g@2x.png
+  artifactKey: Guid(8819fa45e9c43cc4b83cdfcd4926d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay03_g@2x.png using Guid(8819fa45e9c43cc4b83cdfcd4926d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6c4191a504a819d4da32ce604ce45c') in 0.080365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu04_b@2x.png
+  artifactKey: Guid(7f8d8e55eba2d9d4ca1be048cbc19683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu04_b@2x.png using Guid(7f8d8e55eba2d9d4ca1be048cbc19683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4a38a3196667dbb72cd19be5297ab9') in 0.258677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay03_b@2x.png
+  artifactKey: Guid(2f997a843fc45594bad13b275ae9c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay03_b@2x.png using Guid(2f997a843fc45594bad13b275ae9c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221312cde49af874af30a8240ab3c884') in 0.079685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay04_b@2x.png
+  artifactKey: Guid(2f9e473d94e227741988f7b859184ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Overlay04_b@2x.png using Guid(2f9e473d94e227741988f7b859184ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190100ffd0ad88d98b81f17dbe9d23b3') in 0.056871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu06_g@2x.png
+  artifactKey: Guid(e7c7d163c18b79e45ad19fc946182b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu06_g@2x.png using Guid(e7c7d163c18b79e45ad19fc946182b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692ef685ad7e167c15eb72045c82bf49') in 0.184703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Menu01_g@1.5x.png
+  artifactKey: Guid(d4bf3f37a97ebf04091fda31b9be5216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/1,50x size/Frames_Menu01_g@1.5x.png using Guid(d4bf3f37a97ebf04091fda31b9be5216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c61f1b2a6a75c640c8e1e2fad71eb0e') in 0.376826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu03_b@2x.png
+  artifactKey: Guid(7b800d320495d604cb8095c19d99724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu03_b@2x.png using Guid(7b800d320495d604cb8095c19d99724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309401078463cca4235a64f23b30b4a0') in 0.340026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu04_g@2x.png
+  artifactKey: Guid(c400de217eb51de49993e5055185bce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Frames/2x size/Frames_Menu04_g@2x.png using Guid(c400de217eb51de49993e5055185bce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ebfff44e0f0d755d7c8a4d977b6268') in 0.263162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.380388 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/#@0.5x.png
+  artifactKey: Guid(8ee51f93abbd99841a57b92f125bb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/#@0.5x.png using Guid(8ee51f93abbd99841a57b92f125bb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07880661fde502c2858ea50237fbb969') in 0.080576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/COMPLETE@0.5x.png
+  artifactKey: Guid(44c33f7c9237e7844a107d1d5397e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/COMPLETE@0.5x.png using Guid(44c33f7c9237e7844a107d1d5397e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85320fa68c674ad887ed12b713a80b79') in 0.042135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/START@0.5x.png
+  artifactKey: Guid(a17fac2302d74fd4b8f11d41faa7d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/START@0.5x.png using Guid(a17fac2302d74fd4b8f11d41faa7d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c183b26544ef7ae44af2f14682d56d') in 0.037440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/7@0.5x.png
+  artifactKey: Guid(a646bd303192a4544b3c689afab6078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/7@0.5x.png using Guid(a646bd303192a4544b3c689afab6078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d23246171f375bf1fd9e528faac4ee') in 0.029247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/WINNER@0.5x.png
+  artifactKey: Guid(c91233488661b594d81e3fb6c418c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/WINNER@0.5x.png using Guid(c91233488661b594d81e3fb6c418c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25188382bf55d484474cb358c8c4a38') in 0.032481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/6@0.5x.png
+  artifactKey: Guid(ec2f2cba9d2f2794ca23ffa2446d9a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,50x size/6@0.5x.png using Guid(ec2f2cba9d2f2794ca23ffa2446d9a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd66a61c28371932c8e753cc0290fcc2') in 0.032006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.535571 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/#@0.75x.png
+  artifactKey: Guid(4233e165499c13348828611dd2636494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/#@0.75x.png using Guid(4233e165499c13348828611dd2636494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a95c6fc4a56ee1d42467e3cd8221e') in 0.149871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/LOSE@0.75x.png
+  artifactKey: Guid(0f5cc653b604d9b4882a67c45cbc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/LOSE@0.75x.png using Guid(0f5cc653b604d9b4882a67c45cbc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e060a741d3d0c853253035538553bd') in 0.039644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/6@0.75x.png
+  artifactKey: Guid(3b4ebed1400380a4e9b37fee5ce43021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/6@0.75x.png using Guid(3b4ebed1400380a4e9b37fee5ce43021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0140758251fb42a027b3f4413f372228') in 0.024185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/WIN@0.75x.png
+  artifactKey: Guid(ef9ecf3ddcda89b48ae65b68db744122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/WIN@0.75x.png using Guid(ef9ecf3ddcda89b48ae65b68db744122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd42509eb0e3ce0a1f8779c2efacdb') in 0.028287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/2@0.75x.png
+  artifactKey: Guid(de0aaa05d0e4caf4fa132b8e8e59f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/0,75x size/2@0.75x.png using Guid(de0aaa05d0e4caf4fa132b8e8e59f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5e6039a2d98d61d0a35bf4dc910c7d') in 0.022662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072510 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/#.png
+  artifactKey: Guid(7837dc84a415ed248b66eb5a114546e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/#.png using Guid(7837dc84a415ed248b66eb5a114546e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77c16c50ecaa37d6d3d6dbedc5efed5') in 0.128340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/WINNER.png
+  artifactKey: Guid(4bf0515d3253641458fef3565623aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/WINNER.png using Guid(4bf0515d3253641458fef3565623aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccc551505f400acfc26c86e22b5602b') in 0.024268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/GAME_OVER.png
+  artifactKey: Guid(f00c6e30510dbff4984c48978a7f366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/GAME_OVER.png using Guid(f00c6e30510dbff4984c48978a7f366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c40bde7876d219fc684e16e5eb239') in 0.031971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/GO.png
+  artifactKey: Guid(b2f9ecf6bb5bb97478394f8a6f62b4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/GO.png using Guid(b2f9ecf6bb5bb97478394f8a6f62b4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278bcf076aaa7ab374c94f47c1aace92') in 0.026314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/4.png
+  artifactKey: Guid(88eead1707b2ac648865f13d28e8cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/1x size/4.png using Guid(88eead1707b2ac648865f13d28e8cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4a56c4ae5acabfac050277830561d6') in 0.018039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.764558 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/#@2x.png
+  artifactKey: Guid(ce0ca645999864a438c509e49e0e2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/#@2x.png using Guid(ce0ca645999864a438c509e49e0e2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4682eb3ef7a1d7292df2952461f31383') in 0.213421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/GAME_OVER@2x.png
+  artifactKey: Guid(b5861422f7c6b284b9342897f9ac81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/GAME_OVER@2x.png using Guid(b5861422f7c6b284b9342897f9ac81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971f2c5826942421c4c65243dce5f850') in 0.070009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/LEVEL@2x.png
+  artifactKey: Guid(db29c6e849667aa41891d9efb73f1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/LEVEL@2x.png using Guid(db29c6e849667aa41891d9efb73f1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c343928bd6cf8eaa4169a916b37f07a') in 0.042864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/LEVEL_UP@2x.png
+  artifactKey: Guid(9b68ca4c405a9c74db61538af302fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Comic Style/Text/2x size/LEVEL_UP@2x.png using Guid(9b68ca4c405a9c74db61538af302fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d153de421b3b7d6c7033b18ce306b66') in 0.062888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.746696 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,50x size/Banner01@0.5x.png
+  artifactKey: Guid(baba8c9233cb00f418cbaf7ab47d8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,50x size/Banner01@0.5x.png using Guid(baba8c9233cb00f418cbaf7ab47d8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb8211276a78f94cf936a96ee0c923') in 0.051835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,50x size/Banner07@0.5x.png
+  artifactKey: Guid(23a3a85e8e526704a9a9f1bd02937117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,50x size/Banner07@0.5x.png using Guid(23a3a85e8e526704a9a9f1bd02937117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b5fa13c8ecc4cb8a17695ed4b6ef9d') in 0.027017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.567593 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,75x size/Banner01@0.75x.png
+  artifactKey: Guid(201445880fe994546b7accb545c65efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,75x size/Banner01@0.75x.png using Guid(201445880fe994546b7accb545c65efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fb15422908d3564935ed75611b0ee2') in 0.049342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,75x size/Banner06@0.75x.png
+  artifactKey: Guid(2dfcf57e208cb1d40979a1a29e2f060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Banner/0,75x size/Banner06@0.75x.png using Guid(2dfcf57e208cb1d40979a1a29e2f060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1f83bdfa62828ebfd42161ae3ad773') in 0.047149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.136175 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/0@0.5x.png
+  artifactKey: Guid(e8bf0e724338163489f2e154615f2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/0@0.5x.png using Guid(e8bf0e724338163489f2e154615f2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0bb9b8a272ee440e7f131978cecdc8') in 0.029457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/audioPlus@0.5x.png
+  artifactKey: Guid(fd07fc191626ae54bb5b6152573e4e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/audioPlus@0.5x.png using Guid(fd07fc191626ae54bb5b6152573e4e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a52afcd476964545d50bdc170d7fcf') in 0.025177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/4@0.5x.png
+  artifactKey: Guid(0832c2d4c3da6f34e9ea747f8ff4f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/4@0.5x.png using Guid(0832c2d4c3da6f34e9ea747f8ff4f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33610ec6eb7d5539131f07b50477b7e') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_L_06@0.5x.png
+  artifactKey: Guid(87aa1de45c3f70c4e9027f3cf5ee670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_L_06@0.5x.png using Guid(87aa1de45c3f70c4e9027f3cf5ee670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a71124c7cd6f6a86c0c77402ec976f') in 0.022142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/6@0.5x.png
+  artifactKey: Guid(8d3aa53747ac85e4a8110e2e293e264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/6@0.5x.png using Guid(8d3aa53747ac85e4a8110e2e293e264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641dd5dc580a7b2d76f7acfb2b999de') in 0.021625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/9@0.5x.png
+  artifactKey: Guid(966a4eb11ce9f724a933e795094ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/9@0.5x.png using Guid(966a4eb11ce9f724a933e795094ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2e2983f3076f67af25197a199ec28a') in 0.021924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_M_01@0.5x.png
+  artifactKey: Guid(3f1985a46e8ce6a40a707ad36934ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_M_01@0.5x.png using Guid(3f1985a46e8ce6a40a707ad36934ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd46d7b324e0628ae58ec4ef8355ec') in 0.025041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/arrowRight@0.5x.png
+  artifactKey: Guid(cba4176a24af4bf4d9593ab0b5e3ac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/arrowRight@0.5x.png using Guid(cba4176a24af4bf4d9593ab0b5e3ac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ae0913944a001127398fe57983d59') in 0.033217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/arrowDown@0.5x.png
+  artifactKey: Guid(1d35abd6fd687ff4da42c94d2b6e1d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/arrowDown@0.5x.png using Guid(1d35abd6fd687ff4da42c94d2b6e1d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec8c1a41cebdb0f692fdd4c29915b05') in 0.028523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_L_01@0.5x.png
+  artifactKey: Guid(1075c4fdbbca42e4484d4b55cfe61c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,50x size/Button_L_01@0.5x.png using Guid(1075c4fdbbca42e4484d4b55cfe61c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142138db4be77af0e0fd26d32d16a0fa') in 0.023918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215943 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/0@0.75x.png
+  artifactKey: Guid(dac257a0c324fc345b2683de3241f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/0@0.75x.png using Guid(dac257a0c324fc345b2683de3241f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c35ecb09a7ec9c5e65bbd10c5096e') in 0.029945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_06@0.75x.png
+  artifactKey: Guid(b15877db2077ac644b29a5d523ec34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_06@0.75x.png using Guid(b15877db2077ac644b29a5d523ec34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a5066728b46d85ad8322eb7258a349') in 0.021929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_L_01@0.75x.png
+  artifactKey: Guid(67ab9fcbf33ddc342b4d9b7431c00c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_L_01@0.75x.png using Guid(67ab9fcbf33ddc342b4d9b7431c00c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6905978a88189217791515b670e01a') in 0.043373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_03@0.75x.png
+  artifactKey: Guid(ab0e230bd9a6abf4f85d0d6bc91362e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_03@0.75x.png using Guid(ab0e230bd9a6abf4f85d0d6bc91362e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ea0ab554a2b75dd11048d9e5970218') in 0.028340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/arrowRight@0.75x.png
+  artifactKey: Guid(b46d7e3440c145f408c0d0ac59ee8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/arrowRight@0.75x.png using Guid(b46d7e3440c145f408c0d0ac59ee8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea31650c7b58cb40696ac8570b370474') in 0.022770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_08@0.75x.png
+  artifactKey: Guid(7bd5ca29ce707354997aecc4acec7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_08@0.75x.png using Guid(7bd5ca29ce707354997aecc4acec7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d6506becf308356bbc6627e8520ca5') in 0.030814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/8@0.75x.png
+  artifactKey: Guid(a0c229f4105be064c96db8c55d86eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/8@0.75x.png using Guid(a0c229f4105be064c96db8c55d86eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e49486f5bfed860fa785a808acc67ce') in 0.035272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_L_09@0.75x.png
+  artifactKey: Guid(99f28427488477347bed4848b5b1a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_L_09@0.75x.png using Guid(99f28427488477347bed4848b5b1a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61045a31101f09fc646f301dcfdf9bd') in 0.062221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/7@0.75x.png
+  artifactKey: Guid(1a0a3803914697e4283b100d3aeb0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/7@0.75x.png using Guid(1a0a3803914697e4283b100d3aeb0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e92e8e81a9551ad99375fdd072154ab') in 0.043915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_02@0.75x.png
+  artifactKey: Guid(a1ab555e8b6650d48a0e83941becafb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_M_02@0.75x.png using Guid(a1ab555e8b6650d48a0e83941becafb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6023ca29c1a3f3cdefc3a2201762b7d8') in 0.030599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092427 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_04@0.75x.png
+  artifactKey: Guid(7dc7b945be7dcea459d8452c05b42277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_04@0.75x.png using Guid(7dc7b945be7dcea459d8452c05b42277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d4599faeef0d0141f1110e77252f53') in 0.018662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_XL_01@0.75x.png
+  artifactKey: Guid(1c3c33d8c96520a4aad6c258970996b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_XL_01@0.75x.png using Guid(1c3c33d8c96520a4aad6c258970996b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeaab314aa5a5165117c49a3e5f78f1') in 0.021675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_09@0.75x.png
+  artifactKey: Guid(85219f188755a6a4986d6548197d3354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/0,75x size/Button_S_09@0.75x.png using Guid(85219f188755a6a4986d6548197d3354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b50214fc853bfc41a16dedfeab83d5') in 0.021102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850849 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/9.png
+  artifactKey: Guid(eff7cb8e9e05a7d4c96a1b83646c0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/9.png using Guid(eff7cb8e9e05a7d4c96a1b83646c0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728c0edd94052ad1f2a1754211f91b4e') in 0.044367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_08.png
+  artifactKey: Guid(ec4ee258a182015478a1352026218b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_08.png using Guid(ec4ee258a182015478a1352026218b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265623336e7e967640a7e8313df36e89') in 0.029009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_L_04.png
+  artifactKey: Guid(5b19215257c88e34686df8a0e19651dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_L_04.png using Guid(5b19215257c88e34686df8a0e19651dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551e32b160a2ae61405d918fc7369711') in 0.050163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_05.png
+  artifactKey: Guid(de6bce6495f88e145b3f7d3bb447a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_05.png using Guid(de6bce6495f88e145b3f7d3bb447a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a32e0db8c35342df0b913af87b183d2') in 0.056799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_XL_02.png
+  artifactKey: Guid(006d31b0e4479ed43856100dbc1b4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_XL_02.png using Guid(006d31b0e4479ed43856100dbc1b4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617296c1343e6bf6fbe10c68cbd88a74') in 0.037230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_09.png
+  artifactKey: Guid(e2cc7c0f2f081cf4089acff660838b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_09.png using Guid(e2cc7c0f2f081cf4089acff660838b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8914058b887baf172dbbad246ba7b650') in 0.031203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_07.png
+  artifactKey: Guid(b63059d37401cc542bc288f298c6f7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_M_07.png using Guid(b63059d37401cc542bc288f298c6f7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac3d747c1f2df824ad730919dbfba8') in 0.027262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_L_02.png
+  artifactKey: Guid(49c10bfd30bcb85478faa213359b33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_L_02.png using Guid(49c10bfd30bcb85478faa213359b33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b1068dd6f48df73ff42849137322fc') in 0.059610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_S_06.png
+  artifactKey: Guid(953c83b60e13301459bdba4f8c681eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_S_06.png using Guid(953c83b60e13301459bdba4f8c681eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a595fecf068d5e3cf8edd4999e620') in 0.029397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264021 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_XL_04.png
+  artifactKey: Guid(556808748709e214cbe42887033bb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/Button_XL_04.png using Guid(556808748709e214cbe42887033bb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604618ba196c10a81328e5bca91bb1fd') in 0.050000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/help.png
+  artifactKey: Guid(75e0e70b031a19a429d3ea1fdfffdd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/help.png using Guid(75e0e70b031a19a429d3ea1fdfffdd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1e420ee85e1cae53949912ecf8d649') in 0.022159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296638 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/locked.png
+  artifactKey: Guid(30828efb4492320488b42c93e10de298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/locked.png using Guid(30828efb4492320488b42c93e10de298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a979fa1c8423edee49fddc64521444f3') in 0.040807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/star_empty.png
+  artifactKey: Guid(6631531bdd35f5c4d9e50353cbcc6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/star_empty.png using Guid(6631531bdd35f5c4d9e50353cbcc6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739b621ec3c152dbb12969dd2dba1960') in 0.032276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/star_full.png
+  artifactKey: Guid(6717164bea6545a4ea942e840b3203fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Buttons/1x size/star_full.png using Guid(6717164bea6545a4ea942e840b3203fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6851082493c12e3b5a6cceb35d84f8') in 0.024532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.789807 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element23s@1.5x.png
+  artifactKey: Guid(f37fcdadffb592846ad96f428efb30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element23s@1.5x.png using Guid(f37fcdadffb592846ad96f428efb30e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6e5e14a9afb69b376171a8c27cbcad') in 0.053896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/heart@1.5x.png
+  artifactKey: Guid(794c92c2a9ddd99458ea7e860ffafc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/heart@1.5x.png using Guid(794c92c2a9ddd99458ea7e860ffafc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3fd1c496bb53b5f4a167ca9ecb460f') in 0.027625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element33@1.5x.png
+  artifactKey: Guid(fd164993f01fb7d4bb339dbc6c86eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element33@1.5x.png using Guid(fd164993f01fb7d4bb339dbc6c86eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132863f001992ea7b901001ac6b61d7') in 0.033228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element26@1.5x.png
+  artifactKey: Guid(56758ce478766ab49b676b7952eb526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element26@1.5x.png using Guid(56758ce478766ab49b676b7952eb526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e431e3254d68f74e0ac9d21c3bc688') in 0.042895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Photo01@1.5x.png
+  artifactKey: Guid(9f39130e242c725448b5be26a48949bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Photo01@1.5x.png using Guid(9f39130e242c725448b5be26a48949bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739756cc1163f3c9482013fb6225646b') in 0.064852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element40@1.5x.png
+  artifactKey: Guid(2f8d003ffc4553840a12d1c5e2607d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element40@1.5x.png using Guid(2f8d003ffc4553840a12d1c5e2607d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364e046e446f4c6c49977e10f8f35bef') in 0.044612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element31s@1.5x.png
+  artifactKey: Guid(8d42b5848e215eb45b91421a248a1cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element31s@1.5x.png using Guid(8d42b5848e215eb45b91421a248a1cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963465749dbe0f2f17a0c72ffcc79767') in 0.028095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element28@1.5x.png
+  artifactKey: Guid(76c586296abb4744d88c43eb487140cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element28@1.5x.png using Guid(76c586296abb4744d88c43eb487140cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e178b90462860570ac001035a24b63') in 0.043935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element37s@1.5x.png
+  artifactKey: Guid(728784c99f14af143a93a17abcc792da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1,50x size/Element37s@1.5x.png using Guid(728784c99f14af143a93a17abcc792da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd228b71bf3be6512fd38b7748becd2fc') in 0.032908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.123883 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/#@0.75x.png
+  artifactKey: Guid(f5c2e0eeb40cb9040af616abee75cf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/#@0.75x.png using Guid(f5c2e0eeb40cb9040af616abee75cf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04b598938fa855affefc14dca10040d') in 0.035658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/LOSE@0.75x.png
+  artifactKey: Guid(6312a2455cb032c4daf4072bad98dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/LOSE@0.75x.png using Guid(6312a2455cb032c4daf4072bad98dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e2f8a68bd5c0fa286bfd7bb782e5a3') in 0.030107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/3@0.75x.png
+  artifactKey: Guid(8e5a7d2f9876bdf46984a8a0c87be099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/3@0.75x.png using Guid(8e5a7d2f9876bdf46984a8a0c87be099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98bcc268dad7237269f332dd4bb73dc') in 0.031265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/7@0.75x.png
+  artifactKey: Guid(362e9bfa9c837ac4480330a1322ae74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/7@0.75x.png using Guid(362e9bfa9c837ac4480330a1322ae74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112facc99ff39e8b63df73feb3118e5b') in 0.036659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/LOSER@0.75x.png
+  artifactKey: Guid(92a7a35f241e75e4ea43488d650983e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/LOSER@0.75x.png using Guid(92a7a35f241e75e4ea43488d650983e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08895dd734429acdb62fe621b36a545c') in 0.034849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/2@0.75x.png
+  artifactKey: Guid(71fc831e146d77b43adc34dfde484f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/2@0.75x.png using Guid(71fc831e146d77b43adc34dfde484f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8935e2da42d70fa09bffb2a6aa12491') in 0.035574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/DEFEAT@0.75x.png
+  artifactKey: Guid(4c93d918212acbf41948830338a106ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/0,75x size/DEFEAT@0.75x.png using Guid(4c93d918212acbf41948830338a106ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9669c5d23642682bddfe42fd52faa94f') in 0.031192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.191223 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/#@2x.png
+  artifactKey: Guid(f0cee47376c59c846b650f06bc85f3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/#@2x.png using Guid(f0cee47376c59c846b650f06bc85f3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ed9a131e0a26c3ae7321ceada02ee0') in 0.025944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/LEVEL@2x.png
+  artifactKey: Guid(cc394d45898cb9f4f851c409ea16b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/LEVEL@2x.png using Guid(cc394d45898cb9f4f851c409ea16b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888e61cd66a46632777dbb246b754145') in 0.044360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/5@2x.png
+  artifactKey: Guid(9fbc06c5bad15404baea05b5bb31f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/5@2x.png using Guid(9fbc06c5bad15404baea05b5bb31f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea6ba40b34b7efa9dcfe11556aa269b') in 0.033566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/WINNER@2x.png
+  artifactKey: Guid(a08b00c520f43de49af9c4cbb6f866c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/WINNER@2x.png using Guid(a08b00c520f43de49af9c4cbb6f866c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b92669fa90461de6be1afdf08774c8') in 0.057132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/START@2x.png
+  artifactKey: Guid(e019f3e624415324c8163a85760c0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/START@2x.png using Guid(e019f3e624415324c8163a85760c0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ea73991d89e01f00538693cbf064c2') in 0.052873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/3@2x.png
+  artifactKey: Guid(725c4ce3227b7c142bcb7a66dec04b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Text/2x size/3@2x.png using Guid(725c4ce3227b7c142bcb7a66dec04b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c085d91a2201a9194d10e88f9621e844') in 0.031108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.111463 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element01@2x.png
+  artifactKey: Guid(76f82bd56bdb37b40aeb4b0cfdffb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element01@2x.png using Guid(76f82bd56bdb37b40aeb4b0cfdffb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69929761a57b67f70c6527ec96b91be2') in 0.100983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element04@2x.png
+  artifactKey: Guid(ed2c07f077a063a4e8fecdab8924e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element04@2x.png using Guid(ed2c07f077a063a4e8fecdab8924e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1802b17410673e773d21781a3bdc13c') in 0.064421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element06s@2x.png
+  artifactKey: Guid(926f0bdeb0d9ead40af8434609984e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element06s@2x.png using Guid(926f0bdeb0d9ead40af8434609984e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e2004c1fc318a45d2408a6a559d498') in 0.060038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element09s@2x.png
+  artifactKey: Guid(cf7c79ba0ff10ab4cb4022a72e012a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element09s@2x.png using Guid(cf7c79ba0ff10ab4cb4022a72e012a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e97470d67deda5f4690792824e50f48') in 0.058274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element17s@2x.png
+  artifactKey: Guid(460a3989f9a2b71418742859b53dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element17s@2x.png using Guid(460a3989f9a2b71418742859b53dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c00417669369b4cc01bfab1c241698') in 0.042773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element11s@2x.png
+  artifactKey: Guid(4a26ee258df596f4cbe070860861644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element11s@2x.png using Guid(4a26ee258df596f4cbe070860861644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad8c2750cb2fc9a65100b792cee2179') in 0.037217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element03@2x.png
+  artifactKey: Guid(7e164ed6f85a41746826eb5f14d2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element03@2x.png using Guid(7e164ed6f85a41746826eb5f14d2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f56dc6d672815d51f41fbe4f207de83') in 0.064433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element19@2x.png
+  artifactKey: Guid(a15678cd23900aa408e503f21f9ab6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element19@2x.png using Guid(a15678cd23900aa408e503f21f9ab6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc3f73c90d58ea4dd7d0191a2504ca') in 0.059935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element18s@2x.png
+  artifactKey: Guid(04f47c4fbab81e44db83c724a38b023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element18s@2x.png using Guid(04f47c4fbab81e44db83c724a38b023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ded9140dd82c961de8240a10672f44c') in 0.049259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element13@2x.png
+  artifactKey: Guid(7ca13451955735d459884d982badca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/2x size/Element13@2x.png using Guid(7ca13451955735d459884d982badca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c28a36e7bb6965873cfc3d14829f29') in 0.044419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2826.705660 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element01.png
+  artifactKey: Guid(6c527a1a804c16042b87f2b7a50fc701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element01.png using Guid(6c527a1a804c16042b87f2b7a50fc701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25666c775d43aef348be15a45fd11dcf') in 0.065490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element17s.png
+  artifactKey: Guid(45cb19e14ec22cf43a8d350ad82cb91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element17s.png using Guid(45cb19e14ec22cf43a8d350ad82cb91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f56ad007a636c4544f22b0e09162fe') in 0.059035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element14.png
+  artifactKey: Guid(dc8d07f27861f0c4c8a01df1c44c9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element14.png using Guid(dc8d07f27861f0c4c8a01df1c44c9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017db62c1cb6e690b377db5ab3025b93') in 0.023844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element03.png
+  artifactKey: Guid(5a8be8bda9a822b4ab8e03a8bc4e86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element03.png using Guid(5a8be8bda9a822b4ab8e03a8bc4e86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7381dd10d9a2851290a5427ea0ee2bb9') in 0.030249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element16s.png
+  artifactKey: Guid(3ef256f44f41f364c9d85ee7294c0b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element16s.png using Guid(3ef256f44f41f364c9d85ee7294c0b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f1d7af44f360d9a5d5128c57e6115') in 0.022927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element19.png
+  artifactKey: Guid(a354ca0481341e144955439f3331f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element19.png using Guid(a354ca0481341e144955439f3331f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352e4d03e2215a3e8fef80b38c4157e7') in 0.025405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element06.png
+  artifactKey: Guid(d7b822771ba00f04eb81525205d20910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element06.png using Guid(d7b822771ba00f04eb81525205d20910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a97bcefea0773c43867c94f4fb6c9f') in 0.027387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element11s.png
+  artifactKey: Guid(a4b866465593a6a4b8ef6f86f2f81cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element11s.png using Guid(a4b866465593a6a4b8ef6f86f2f81cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c426f208c0b134458dd5a67873c55') in 0.021848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element02s.png
+  artifactKey: Guid(9dad410bbaca79e4fbe9fcf0f574b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element02s.png using Guid(9dad410bbaca79e4fbe9fcf0f574b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a921a8451c482cbb0e051833217eb5') in 0.026499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element12s.png
+  artifactKey: Guid(e9a3642f06ee88648b69938d255cd65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element12s.png using Guid(e9a3642f06ee88648b69938d255cd65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe020031ae86ec0a0ca81ae04b7c21a') in 0.030707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element11.png
+  artifactKey: Guid(ff829b1c458cfaa4da5981d568ac284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element11.png using Guid(ff829b1c458cfaa4da5981d568ac284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6e2c628596344da8115b2d3e03dbd') in 0.021661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element06s.png
+  artifactKey: Guid(0cdb688a25fd35f46b665305f09edfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element06s.png using Guid(0cdb688a25fd35f46b665305f09edfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9769885849e0de3bf018d8cc1fb0bb87') in 0.027728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element18s.png
+  artifactKey: Guid(3995e24bd6ce2704a842e07f407e2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element18s.png using Guid(3995e24bd6ce2704a842e07f407e2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53251d2f257221f3a21c79231d897cb4') in 0.024406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element09.png
+  artifactKey: Guid(d0dd0c22a69016446b2a4248eab84b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element09.png using Guid(d0dd0c22a69016446b2a4248eab84b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9814c7ee4dab2676eceb5ac966d4feb') in 0.036048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element10.png
+  artifactKey: Guid(2efdccfbb22c21d43809973900fdac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element10.png using Guid(2efdccfbb22c21d43809973900fdac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56da521ffba3e73caeb6d6d806696e34') in 0.026709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element18.png
+  artifactKey: Guid(9899ad78d55ea8e41b8f0bd985c1be52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element18.png using Guid(9899ad78d55ea8e41b8f0bd985c1be52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fc0f0bcee49947924f5f1e56811b41') in 0.021377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element16.png
+  artifactKey: Guid(2082c00c12ffb5644bd2773a28592d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element16.png using Guid(2082c00c12ffb5644bd2773a28592d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993691a217e15b85ec4a317c4827e668') in 0.021520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element03s.png
+  artifactKey: Guid(710264bca9fe76a4188b54de2c5a3aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element03s.png using Guid(710264bca9fe76a4188b54de2c5a3aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ad723c9d84c513983955daca32d35c') in 0.039021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element13s.png
+  artifactKey: Guid(4d4c1936cd84fbb43992271d2e928a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/1x size/Element13s.png using Guid(4d4c1936cd84fbb43992271d2e928a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6d7c4894c54dc8abddeafb192ea11d') in 0.038168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.102181 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element01@0.75x.png
+  artifactKey: Guid(6dc76e1bc351c354892f94f7043d11ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element01@0.75x.png using Guid(6dc76e1bc351c354892f94f7043d11ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab87e86c74e976c2fa5ded8bacdc9b7') in 0.019408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element02s@0.75x.png
+  artifactKey: Guid(f37ad4ddc545afe43b2ea8faecb6a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element02s@0.75x.png using Guid(f37ad4ddc545afe43b2ea8faecb6a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c323cc8677caab920514fd80eba3237') in 0.025546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element15s@0.75x.png
+  artifactKey: Guid(5f3174a538ed72b4ca54e4d952d766ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element15s@0.75x.png using Guid(5f3174a538ed72b4ca54e4d952d766ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eadd3338c4ec8b41acbf37552907cc4') in 0.029425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element07@0.75x.png
+  artifactKey: Guid(7577762d684d20a4fa7d7f46c4422135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element07@0.75x.png using Guid(7577762d684d20a4fa7d7f46c4422135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b961e41d076679826bf7cad7d52176f1') in 0.033182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element13s@0.75x.png
+  artifactKey: Guid(6a7109416c2461a4fa648118f57e976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element13s@0.75x.png using Guid(6a7109416c2461a4fa648118f57e976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4ee8a5aab88d5b569c485b46b9f799') in 0.047828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element18@0.75x.png
+  artifactKey: Guid(8c043207babe23a4fa79fc5e0c529c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element18@0.75x.png using Guid(8c043207babe23a4fa79fc5e0c529c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e530a5cdc4ea02852dc002b62c50a') in 0.031331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element12s@0.75x.png
+  artifactKey: Guid(179525d4a562e5b43a9c992b1ea9038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element12s@0.75x.png using Guid(179525d4a562e5b43a9c992b1ea9038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0d6709db0a5355e2f46c96d46081fc') in 0.032008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element11@0.75x.png
+  artifactKey: Guid(d868785c2c2764e4a88bfd3b5ba045ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element11@0.75x.png using Guid(d868785c2c2764e4a88bfd3b5ba045ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac64c38692fbc8cc4654196396a06424') in 0.039099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element10s@0.75x.png
+  artifactKey: Guid(d347834c53530c2448cf0ebd88c2349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element10s@0.75x.png using Guid(d347834c53530c2448cf0ebd88c2349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f2be5b5d1a124d0c79c1c3cb69ebeb') in 0.040117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element13@0.75x.png
+  artifactKey: Guid(92d3e0894c25a90438ba456fef9f0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element13@0.75x.png using Guid(92d3e0894c25a90438ba456fef9f0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515205749e10a08a941c35f42d97a430') in 0.033580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element17@0.75x.png
+  artifactKey: Guid(e7912bfff90470941911310386116e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element17@0.75x.png using Guid(e7912bfff90470941911310386116e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69b4b7a11ed1a4e9e3bc8340e16dd22') in 0.039617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element14s@0.75x.png
+  artifactKey: Guid(3bab82746b4396b4e82cadf8bf27e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element14s@0.75x.png using Guid(3bab82746b4396b4e82cadf8bf27e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea779676421ef40b5adc03201370459f') in 0.030269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element05s@0.75x.png
+  artifactKey: Guid(51641f3016d6fe34890ccb309106bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element05s@0.75x.png using Guid(51641f3016d6fe34890ccb309106bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf85f27c62b466ce171861323e99b264') in 0.033204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element08s@0.75x.png
+  artifactKey: Guid(9aee771bdc9b8284c86597dffbce034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element08s@0.75x.png using Guid(9aee771bdc9b8284c86597dffbce034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8753b498e5a8de591dd106f843f13621') in 0.031153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element08@0.75x.png
+  artifactKey: Guid(555de115cf8c60e44a4d89e3d4ba8b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element08@0.75x.png using Guid(555de115cf8c60e44a4d89e3d4ba8b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2c62bc9cbc82f1cdfd107669fcfb91') in 0.036321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element06@0.75x.png
+  artifactKey: Guid(9a4e6f99a26e3c14e9900611d94f914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element06@0.75x.png using Guid(9a4e6f99a26e3c14e9900611d94f914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d60989d5cc7c71be5f3d558136ab769') in 0.035614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element04s@0.75x.png
+  artifactKey: Guid(d8ca8ceee7f9cf24ab1f2b7c4152a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptogene/Free Simple GUI/Sprites/Flat Style/Elements/0,75x size/Element04s@0.75x.png using Guid(d8ca8ceee7f9cf24ab1f2b7c4152a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a61a9effe33b449acd773e5a862bf1') in 0.044003 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
